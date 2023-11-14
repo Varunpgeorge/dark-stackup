@@ -1,0 +1,45 @@
+.container {
+    
+    margin: 1em;
+    min-width: 20em;
+    width: 100%;
+    height: 100vh;
+    display : flex;
+    flex-direction: column;
+  }
+  
+  .task-meta {
+    color: grey;
+    /* font-size: small; */
+    margin-top: -10px;
+    margin-bottom: 0.5em;
+  }
+  
+  .task-meta img {
+    margin-right: 5px;
+  }
+  
+  form {
+    text-align: left;
+    margin: 10px 0px 10px 0px;
+  }
+  
+  label {
+    font-weight: 700;
+    color: grey;
+  }
+  input {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .newBtn{
+    width: 10%;
+    background-color: chartreuse;
+    color: black;
+    border: 1px solid black;
+  }
+
